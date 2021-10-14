@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS PROJECT</title>
+
+     <style>
+     h1 {
+         font-family: cursive;
+         font-style: italic;
+         color: royalblue;
+         text-align: left;
+         padding:10px;
+
+      }
+      h2{
+          float: left;
+      }
+      .menu{
+    
+        float: right;
+      }
+      li{
+          float:left;
+          display: block;
+      }
+      
+      li a{
+          display:block;
+          background-color: cornflowerblue;
+          padding:15px;
+          border:black;
+        
+          
+      }
+      h2 {
+          font-family: cursive;
+          font-style: italic;
+          color: tomato;
+          padding:10px;
+
+          
+      }
+      .high{
+          display:block;
+          background-color: black;
+          padding:50px;
+          border:black;
+          margin:50px;
+          clear:both;
+        
+          
+        }
+      .main {
+          clear:both;
+      }
+      .down,.up {
+          float:left;
+         
+      }
+      .desc {
+          padding:5px;
+          color:darkgreen;
+          background-color: darkorange;
+          max-width:100px
+
+      }
+      .clear{
+          clear: both;
+      }
+            .topnav input[type=text] {
+        float: right;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        border: none;
+        font-size: 17px;
+        }
+        .inline-div {
+            
+                text-align: center;
+                color:brown;
+                font-family: cursive;
+                
+}
+        span
+        {
+           padding:30px; 
+           margin-bottom: 20px;
+           display: inline-block;
+           color:crimson;
+        
+        }
+        h3{
+            color:darkgreen;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .simple{
+            width: 80%;
+            float: right;
+        }
+        td,th{
+            color:darkslateblue;
+            padding:10px;
+        }
+        .styling{
+            border-collapse: collapse;
+            padding:5px;
+            margin: 10px;
+            width:40%;
+
+
+        }
+        tr:nth-child(even){background-color: #f2f2f2;}
+        tr:hover {background-color:rgb(41, 41, 160);}
+         th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+         }
+    
+        
+   </style>
+</head>
+<body>
+    
+
+<h1>FOOD BLOG</h1>
+<h2>Yummy food</h2>
+  <ul class="menu">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#recipes">Recipes</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<div class="main">
+    <div class="up">
+    <a target=_blank href="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80">
+    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80" alt="food image" height="400" width="400"></a>
+    <p class="desc">Ingredients</p>
+    </div>
+
+    <div class="down">
+    <a target="_blank" href="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsaWNpb3VzJTIwZm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+        <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsaWNpb3VzJTIwZm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="cake image" width="400" height="400"></a>
+        <p class="desc">Quick and easy</p>
+    </div>
+    <div class="down">
+        <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/440px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/440px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg" alt="ice cream" width="400" height="400"></a>
+            <p class="desc">Ice creams</p>
+    </div>
+</div >
+<ul class="high">
+    <li><a href="#Popular">Popular</a></li>
+    <li><a href="#InstantPot">Instant Pot</a></li>
+    <li><a href="#Vegan">Vegan</a></li>
+    <li><a href="#SugarFree">Sugar Free</a></li>
+    <li><a href="#MealPrep">Meal Prep</a></li>
+    <div class="topnav">
+    <input type="text" placeholder="Search..">
+    
+    </div>
+</ul>
+<div class="clear"></div>
+<div class="inline-div">
+    <h3>As seen in</h3>
+    <div>
+    <span>BuzzFeed</span>
+    <span>Pure Wow</span>
+    <span>Brit+Co</span>
+    <span>popsugar</span>
+    </div>
+
+  </div>
+  <div class="main">
+    <div class="up">
+    <a target=_blank href="https://www.ootabox.com/wp-content/uploads/2018/02/420931a20ed35fccae9621d12f949feb">
+    <img src="https://www.ootabox.com/wp-content/uploads/2018/02/420931a20ed35fccae9621d12f949feb" alt="food image" height="400" width="400"></a>
+    
+    </div>
+
+    <div class="down">
+    <a target="_blank" href="https://www.paradisecoast.com/sites/default/files/styles/profile_page_1200/public/profiles/photos/listing-6311-shutterstock_757957003.jpg?itok=t1kwuv3I">
+        <img src="https://www.paradisecoast.com/sites/default/files/styles/profile_page_1200/public/profiles/photos/listing-6311-shutterstock_757957003.jpg?itok=t1kwuv3I" alt="cake image" width="400" height="400"></a>
+        
+    </div>
+    <div class="down">
+        <a target="_blank" href="https://pixelsquote.net/wp-content/uploads/images1/Happiness-Food-quotes.jpg">
+            <img src="https://pixelsquote.net/wp-content/uploads/images1/Happiness-Food-quotes.jpg" alt="ice cream" width="400" height="400"></a>
+    </div>
+</div>
+<div class="clear"></div>
+    <h3>Pineapple</h3>
+    <img src="https://www.tasteofhome.com/wp-content/uploads/2019/02/pineapples_1283638660.jpg?w=1200" alt="pineapple" height="200" width="200"/>
+    <p class="simple">Pineapples also contain trace amounts of vitamins A and K, phosphorus, zinc and calcium.
+        They are especially rich in vitamin C and manganese,
+         providing 131% and 76% of the daily recommendations, respectively.
+         Vitamin C is essential for growth and development,
+          a healthy immune system and aiding the absorption of iron from the diet.
+           Meanwhile, manganese is a naturally occurring mineral that aids growth,
+            maintains a healthy metabolism and has antioxidant properties </p>
+            <div class="clear"></div>
+            <table class="styling" >
+                <tr>
+                  <th>recipies</th>
+                  <th>Type</th>
+                    
+                </tr>
+                <tr>
+                  <td>Tomato</td>
+                  <td>Veg</td>
+                </tr>
+                <tr>
+                  <td>Chicken</td>
+                  <td>Non-Veg</td>
+                  
+                </tr>
+                <tr>
+                  <td>Mutton</td>
+                  <td>Non-Veg</td>
+                  
+                </tr>
+                <tr>
+                  <td>Fish</td>
+                  <td>Non-veg</td>
+                  
+                </tr>
+                <tr>
+                  <td>Shrimp</td>
+                  <td>Non-Veg</td>
+                  
+                </tr>
+                <tr>
+                  <td>Prawns</td>
+                  <td>Non-Veg</td>
+                  
+                </tr>
+                <tr>
+                  <td>Pizza</td>
+                  <td>Non-veg or veg</td>
+                  
+                </tr>
+                <tr>
+                  <td>Burger</td>
+                  <td>Non-veg or veg</td>
+                  
+                </tr>
+                <tr>
+                  <td>Noodles</td>
+                  <td>Non-veg or veg</td>
+                  
+                </tr>
+                <tr>
+                  <td>Biryani</td>
+                  <td>Non-veg or Veg</td>
+                  
+                </tr>
+              </table>
+
+</body>
+</html>
