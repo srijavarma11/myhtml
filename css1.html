@@ -2,17 +2,24 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>CSS PROJECT</title>
 
      <style>
-     h1 {
+     .firstclass {
          font-family: cursive;
          font-style: italic;
          color: royalblue;
          text-align: left;
          padding:10px;
-
-      }
+        text-align: center;
+        background-position-x: 50%;
+    
+       background-image: url(https://media.istockphoto.com/photos/spring-morning-in-the-meadow-nature-background-picture-id1167923532?k=20&m=1167923532&s=612x612&w=0&h=jgoZQ5XtC_AWX8pBecn3RcLn9bn-DauUt81a4RZ2q0U=);
+       background-repeat: no-repeat;
+       height: 200px;
+       background-size: contain;
+       }
       h2{
           float: left;
       }
@@ -30,17 +37,13 @@
           background-color: cornflowerblue;
           padding:15px;
           border:black;
-        
-          
-      }
+        }
       h2 {
           font-family: cursive;
           font-style: italic;
           color: tomato;
           padding:10px;
-
-          
-      }
+         }
       .high{
           display:block;
           background-color: black;
@@ -48,8 +51,6 @@
           border:black;
           margin:50px;
           clear:both;
-        
-          
         }
       .main {
           clear:both;
@@ -81,8 +82,7 @@
                 text-align: center;
                 color:brown;
                 font-family: cursive;
-                
-}
+             }
         span
         {
            padding:30px; 
@@ -109,9 +109,7 @@
             padding:5px;
             margin: 10px;
             width:40%;
-
-
-        }
+       }
         tr:nth-child(even){background-color: #f2f2f2;}
         tr:hover {background-color:rgb(41, 41, 160);}
          th {
@@ -121,14 +119,28 @@
             background-color: #04AA6D;
             color: white;
          }
-    
-        
-   </style>
+         
+            h2::first-letter {
+                color: burlywood;
+                font-size: xx-large;
+            }
+            .boxstyling{
+                background-color:skyblue;
+                font-family: cursive;
+                text-align: center;
+                
+                padding: 20px;
+                margin: 50px;
+            }
+           
+
+  </style>
 </head>
 <body>
     
 
-<h1>FOOD BLOG</h1>
+<h1 class="firstclass">FOOD BLOG</h1>
+
 <h2>Yummy food</h2>
   <ul class="menu">
   <li><a href="#home">Home</a></li>
@@ -260,6 +272,13 @@
                   
                 </tr>
               </table>
+              <div class="boxstyling">
+              <input type="text" id="firstname" placeholder="firstname" name="firstname">
+              <input type="text" id="email" placeholder="email" name="email">
+              <input type="submit" type="submit">
+              </div>
+              <div class="clear"></div>
 
+             
 </body>
 </html>
